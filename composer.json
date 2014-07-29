@@ -1,0 +1,22 @@
+{
+    "name": "aldoanizio/makorecaptcha",
+    "type": "mako-package",
+    "description": "Google reCaptcha Package for Mako Framework 4.0",
+    "keywords": ["mako", "framework", "mail"],
+    "homepage": "https://github.com/aldoanizio/makorecaptcha",
+    "authors": [
+        {
+            "name": "Aldo Anizio Lugão Camacho",
+            "email": "aldoanizio@yahoo.com.br",
+            "homepage": "http://www.visualcode.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "makorecaptcha\\": "classes"
+        }
+    },
+    "require": {
+        "composer/installers": "*"
+    }
+}
